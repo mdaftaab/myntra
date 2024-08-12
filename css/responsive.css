@@ -1,0 +1,94 @@
+@media only screen and (max-width:600px) {
+  #logo {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ri-menu-line {
+    font-size: 30px;
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  #search {
+    display: none;
+  }
+
+  #side-menu p {
+    display: none;
+  }
+
+  header h2 {
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 10px;
+  }
+
+  #side-menu {
+    margin-right: -10px;
+    display: flex;
+    gap: 15PX;
+    justify-content: center;
+  }
+
+  #div#side-menu i {
+    font-size: 20px;
+  }
+
+  .sub_footer {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .ri-search-line {
+    display: block;
+  }
+
+  
+  .desktop-menu{
+    display: none;
+  }
+  .mobile-menu{
+    display: flex;
+    position: absolute;
+    left: -260px;
+    top: 42px;
+    background: #fff;
+    padding: 20px;
+   }
+   .mobile-menu ul.top,.mobile-menu ul.bottom {
+      flex-direction: column;
+  }
+
+  .m-logo {
+      display: block;
+  }
+  .d-logo {
+    display: none;
+}
+.icon-box.m-search {
+    display: block;
+}
+.icon-box.d-user {
+    display: none;
+}
+header {
+    padding: 10px;
+}
+.m-burgur{
+  display: block;
+}
+nav.menu.mobile-menu.show {
+    left: 20px;
+}
+
+
+
+}/*---*/
